@@ -1,4 +1,4 @@
-public static int[] zahlenVertauschen(array, index1, index2){
+public static int[] zahlenVertauschen(int [] array, int index1, int index2){
 	cachedIndex1 = array[index1];
 	array[index1] = array[index2];
 	array[index2] = cachedIndex1;
