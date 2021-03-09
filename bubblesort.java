@@ -1,5 +1,5 @@
 public static int[] zahlenVertauschen(int [] array, int index1, int index2){
-	cachedIndex1 = array[index1];
+	int cachedIndex1 = array[index1];
 	array[index1] = array[index2];
 	array[index2] = cachedIndex1;
 	return array;
@@ -10,7 +10,7 @@ public static int[] bubblesort(int [] inputArray){
     // While Schleife überprüft so lange, bis nichts mehr verändert wird >> wir sind fertig
     while (veraendert == true){
         // Standardwert der Variable auf False
-        veraendert = false
+        veraendert = false;
         // Jeden Eintrag in der Liste überprüfen
         for (int index = 0; index < len(inputArray) - 1; index++){
             // wird ausgeführt, wenn wir zwei Beträge vertauschen können
