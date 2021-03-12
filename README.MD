@@ -1,7 +1,6 @@
 # Sortier-Algorhithmen
-
-## Bubble-Sort
-### Pseudocode:
+## Pseudocode
+### Bubble-Sort
 ```
 SET sorted to False
 
@@ -18,7 +17,7 @@ ENDWHILE
 
 RETURN array
 ```
-## Selection-Sort
+### Selection-Sort
 ```
 FOR index = 0 to arraylength
     FIND smallest item between current index and end of array
@@ -27,7 +26,7 @@ ENDFOR
 
 RETURN array
 ```
-## Merge-Sort
+### Merge-Sort
 
 ```
 SPLIT array into an array of arrays with up to 2 items each
@@ -45,7 +44,7 @@ ENDFOR
 
 RETURN sortedArray
 ```
-## UnknownNameSort (Improved)
+### UnknownNameSort (Improved)
 ```
 REMOVE duplicate values from list
 CREATE removedValues list with removed values
